@@ -1,0 +1,53 @@
+.father {
+    height: 900px;
+    width: 600px;
+    background-color: pink;
+}
+
+.widgets {
+    height: 200px;
+    width: 90%;
+    background-color: purple;
+    text-align: center;
+    font-size: 160px;
+
+}
+
+
+.bigWidgWrap {
+    height: 200px;
+    width: 150px;
+    background-color: red;
+    margin: 5px;
+    text-align: center;
+
+}
+
+.flexWrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+
+}
+
+.footer {
+    width: 100%;
+    height: 490px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContactMenu {
+    width: 580px;
+    height: 460px;
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactSpan {
+    font-size: 80px;
+}

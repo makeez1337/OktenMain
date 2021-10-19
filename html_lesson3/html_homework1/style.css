@@ -1,0 +1,58 @@
+
+.body {
+    margin: 0;
+}
+
+.father {
+    width: 700px;
+    height: 500px;
+    background-color: pink;
+    border-radius: 5px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+.mainHeader {
+    margin: 10px;
+    box-sizing: border-box;
+
+}
+
+.header {
+    background-color: gold;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.headTextStyle {
+    width: 100%;
+}
+
+
+.bottom {
+    display: flex;
+    margin: 10px;
+}
+
+.leftElem {
+    height: 267px;
+    width: 440px;
+    background-color: red;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.rightElem {
+    height: 267px;
+    width: 226px;
+    background-color: cornflowerblue;
+    margin-left: 10px;
+    box-sizing: border-box;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
