@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+}
+.wrap {
+    width: 700px;
+    height: 400px;
+    background-color: silver;
+}
+
+.header {
+    width: 700px;
+    height: 100px;
+    background-color: red;
+}
+
+.bottom {
+    width: 100%;
+    background-color: purple;
+    height: 300px;
+    display: flex;
+}
+
+.leftSide {
+    width: 70%;
+    background-color: black;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.leftBox {
+    width: 160px;
+    height: 140px;
+    background-color: cornflowerblue;
+    border: 3px solid black;
+    box-sizing: border-box;
+}
+
+.rightSide {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightBox {
+    height: 300px;
+    width: 250px;
+    background-color: gold;
+}

@@ -1,0 +1,50 @@
+.wrap {
+    width: 800px;
+    height: 400px;
+    background-color: grey;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 100px;
+    width: 100%;
+    background-color: red;
+}
+
+.botWrap {
+    background-color: yellow;
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+.leftSide {
+    width: 600px;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.botHeader {
+    width: 600px;
+    height: 150px;
+    background-color: green;
+}
+
+.footer {
+    width: 200px;
+    height: 150px;
+    background-color: orange;
+    border-right: 2px solid black;
+    box-sizing: border-box;
+}
+
+.rightSide {
+    width: 100%;
+    background-color: cornflowerblue;
+}
+
+
+
