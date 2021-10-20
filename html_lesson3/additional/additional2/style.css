@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 805px;
+    width: 500px;
+    margin: 0 auto;
+
+}
+
+.header {
+    height: 100px;
+    background-color: cornflowerblue;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftMenu {
+    width: 40%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.heroElem {
+    width: 100%;
+    background-color: pink;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sideBarElem {
+    width: 100%;
+    background-color: green;
+    flex-grow: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightMenu {
+    width: 60%;
+    height: 500px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    margin-left: 5px;
+    box-sizing: border-box;
+}
+
+.mainContElem {
+    width: 100%;
+    background-color: orange;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.extraContElem {
+    width: 100%;
+    background-color: brown;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botMenu {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    column-gap: 5px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.botLeftElem {
+    background-color: darkgreen;
+    flex-grow: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botRightElem {
+    background-color: silver;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: orange;
+    height: 90px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
