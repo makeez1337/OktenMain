@@ -1,0 +1,413 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: cornflowerblue;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.soc-icon {
+    height: 50px;
+    background-color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 10px;
+    padding-right: 105px;
+}
+
+.soc-icon__link {
+    height: 10px;
+    width: 60px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.header__top {
+    background-color: #cad7e0;
+    padding: 20px 0 30px
+}
+
+.header__top_grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.header__logo {
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.nav__item {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.nav__item a {
+    text-decoration: none;
+    transition: 1s;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav__item a:hover {
+    color: red;
+}
+
+.header__main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 200px 0 150px;
+}
+
+.header__main_name {
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+    padding-bottom: 30px;
+}
+
+.header__nameElem {
+    height: 30px;
+    width: 150px;
+    background-color: black;
+    border-radius: 10px;
+
+}
+
+
+.header__nameElem_w200 {
+    height: 30px;
+    width: 200px;
+    background-color: black;
+    border-radius: 10px;
+
+}
+
+
+.header__main_describeTop {
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+}
+
+.header__main_describeElem {
+    height: 10px;
+    width: 100px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.header__main_describeMid {
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+}
+
+.header__main_describeBot {
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+}
+
+.header__main_btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.header__btn_style {
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: gold;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: help;
+
+}
+
+.products {
+    padding: 80px;
+    background-color: #cad7e0;
+}
+
+.products__title {
+    align-items: center;
+    text-align: center;
+}
+
+.products__grid {
+    border: 2px solid cornflowerblue;
+    border-radius: 20px;
+    padding: 20px 0;
+}
+
+.product__list {
+    display: flex;
+    column-gap: 10px;
+    padding: 0 20px;
+}
+
+.product__item {
+    flex-grow: 1;
+}
+
+.product__item p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.product__imag {
+    height: 200px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.about__main {
+    background-color: cornflowerblue;
+    padding: 100px;
+}
+
+.about__main_grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__item {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.brd {
+    border: 2px solid transparent;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.brd:hover {
+    border-color: rebeccapurple;
+}
+
+
+
+.main__item_photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #cad7e0;
+}
+
+.main__item_describe {
+    text-align: center;
+    margin-top: 15px;
+
+}
+
+.feedbacks__wrap {
+    padding: 50px 0;
+    background-color: #cad7e0;
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback__head {
+    text-align: center;
+}
+
+.feedback__img {
+    height: 200px;
+    width: 400px;
+    background-color: black;
+    border-radius: 10px;
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.feedback__item {
+    border: 3px solid cornflowerblue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback__footer {
+    border-top: 3px solid cornflowerblue;
+}
+
+.feedbacks__container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    column-gap: 50px;
+}
+
+.feedback__describe {
+    font-family: "Apple Chancery";
+    text-align: justify;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.container__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    justify-content: center;
+}
+
+.feedback__footer {
+    font-weight: bold;
+}
+
+.feedback__footer p {
+    margin-left: 5px;
+}
+.conclusion__wrap {
+    background-color: #cad7e0;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.conclusion__left {
+    width: 500px;
+    height: 500px;
+    background-color: black;
+}
+
+.left__items {
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.left__items_logo {
+    width: 150px;
+    height: 20px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+}
+
+.left__items_img {
+    width: 250px;
+    height: 20px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+}
+
+.left__items_header {
+    display: flex;
+    column-gap: 10px;
+    padding-top: 80px;
+}
+
+.left__items_describing {
+    margin-top: 20px;
+}
+
+.left__btn {
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.left__item_btn {
+    margin-top: 140px;
+}
+
+.right__items {
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.right__items_logo {
+    width: 150px;
+    height: 20px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.right__items_img {
+    width: 250px;
+    height: 20px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.right__items_describing {
+    margin-top: 20px;
+}
+
+.right__btn {
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.right__item_btn {
+    margin-top: 140px;
+    margin-left: 150px;
+}
+
+.conclusion__right {
+    width: 500px;
+    height: 500px;
+    background-color: cornflowerblue;
+}
+
+.right__items_header {
+    display: flex;
+    column-gap: 10px;
+    padding-top: 80px;
+}
+
+.footer__end_container {
+    background-color: purple;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.footer__box {
+    width: 70px;
+    height: 70px;
+    background-color: #cad7e0;
+    border-radius: 10px;
+}
+
+
+.footer__boxes_wrap {
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+}
+
+.footer__bottom_line {
+    background-color: #cad7e0;
+    width: 500px;
+    height: 5px;
+    border-radius: 10px;
+}
+
+.footer__bottom_lineWrap {
+    display: flex;
+    justify-content: center;
+}
