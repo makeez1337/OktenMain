@@ -1,0 +1,150 @@
+.container {
+    height: 100vh;
+    background: url("images/hero image.png") no-repeat center/cover;
+}
+
+.wrapper {
+    max-height: 1200px;
+    margin: 0 auto;
+    padding: 0 175px;
+}
+
+.header__menu {
+    display: flex;
+}
+
+.header__top {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__top_logo {
+    margin-left: 80px;
+}
+
+.nav {
+    display: flex;
+    column-gap: 23px;
+    border-right: 2px solid white;
+    align-items: center;
+    padding-right: 15px;
+}
+
+
+.nav__item a {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.header__contacts {
+    display: flex;
+}
+
+.header__phone {
+    width: 155px;
+    margin-left: 20px;
+}
+
+.number {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-left: 5px;
+}
+
+.header__phone p {
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+    width: 155px;
+    margin: 0;
+
+}
+
+.header__btn {
+    display: flex;
+    align-items: center;
+    margin-left: 45px;
+}
+
+.header__btn_style {
+    width: 157px;
+    height: 47px;
+    background: #FF7400;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.header__phone img {
+    width: 23px;
+    height: 23px;
+}
+
+.header__main {
+    margin-top: 280px;
+}
+
+.header__main h2 {
+    font-size: 50px;
+    line-height: 57px;
+}
+
+.header__main h1 {
+    font-size: 80px;
+    line-height: 92px;
+}
+
+.header__main h2, .header__main h1 {
+    color: #D67E35;
+    margin: 0;
+}
+
+.header__title p {
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.header__title {
+    margin-left: 80px;
+    width: 556px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header__title p::before, .header__title p::after {
+    content: "";
+    display: block;
+    width: 61px;
+    height: 2px;
+    background: #C4C4C4;
+}
+
+.header__main_btn {
+    width: 137px;
+    height: 47px;
+    background: #FF7400;
+    margin-top: 21px;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
