@@ -201,6 +201,9 @@
     line-height: 30px;
     text-align: center;
     color: #656363;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 
 }
 
@@ -220,5 +223,6 @@
     line-height: 30px;
     text-align: center;
     color: #656363;
+    width: 80%;
 
 }
