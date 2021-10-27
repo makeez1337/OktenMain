@@ -1,0 +1,255 @@
+@media screen and (max-width: 375px) {
+    .header__menu {
+        display: none;
+    }
+
+    .wrapper {
+        padding: 0;
+    }
+
+    .header__title {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .header__main {
+        margin-top: 252px;
+    }
+
+    .header__title p::before, .header__title p::after {
+        content: "";
+        display: none;
+    }
+
+    .header__main h2 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    .header__main h1 {
+        font-size: 40px;
+        line-height: 46px;
+    }
+
+    .header__top_logo img {
+        width: 40px;
+    }
+
+    .header__top_logo {
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+
+    .nav__btn_mobile {
+        width: 32px;
+        height: 3px;
+        background: #FF7400;
+        border-radius: 50px;
+        position: relative;
+        content: "";
+        margin-right: 15px;
+        margin-top: 20px;
+    }
+
+    .nav__btn_mobile::before, .nav__btn_mobile::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #FF7400;
+        border-radius: 50px;
+    }
+
+    .nav__btn_mobile::before {
+        top: 6px;
+    }
+
+    .nav__btn_mobile::after {
+        bottom: 6px;
+    }
+
+    .about__food_grid {
+        flex-direction: column;
+        row-gap: 15px;
+        align-items: center;
+    }
+
+    .about__story_grid, .story__main_image {
+        margin-left: 0;
+    }
+
+    .menu__count_grid {
+        flex-direction: column;
+    }
+
+    .about__story {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about__story_grid h3 {
+        font-size: 40px;
+        line-height: 46px;
+        text-align: center;
+        width: 260px;
+        margin-top: 0;
+    }
+
+
+
+    .about__story_grid {
+        width: 290px;
+    }
+
+    .menu__count_grid {
+        margin-top: 60px;
+    }
+
+
+    .story__main_image img {
+        width: 340px;
+        margin-top: 30px;
+    }
+
+    .about__deserve_describe h3 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    .about__deserve_describe p {
+        font-size: 24px;
+        line-height: 33px;
+    }
+
+    .deserve__menu_grid {
+        padding: 20px 0 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about__deserve {
+        width: 290px;
+    }
+
+    .deserve__btn {
+        margin-top: 40px;
+        color: #FFFFFF;
+    }
+
+    .dishes__menu h4 {
+        margin-top: 80px;
+    }
+
+    .dishes__images {
+        margin-left: 0;
+        margin-top: 75px;
+        flex-direction: column;
+    }
+
+    .dishes__main_img img {
+        width: 375px;
+    }
+
+    .dishes__hamburger_img img {
+        width: 170px;
+    }
+
+    .dishes__hamburger_img {
+        margin-top: 40px;
+        row-gap: 87px;
+        margin-left: 20px;
+    }
+
+    .dishes__media_wrap {
+        display: flex;
+    }
+
+    .dishes__hamburger_p {
+        display: none;
+    }
+
+    .dishes_hamburger_price p {
+        font-size: 22px;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    .dishes_hamburger_price {
+        justify-content: space-evenly;
+    }
+
+    .main__menu_items_media {
+        display: none;
+    }
+
+    .main__menu_items {
+        width: 290px;
+    }
+
+    .main__menu_grid {
+        margin-top: 90px;
+    }
+
+    .main__menu h5 {
+        font-weight: normal;
+
+    }
+
+    .visitor__feedback {
+        padding: 0 0 30px;
+    }
+
+    .visitor__feedback_wrap {
+        width: 328px;
+    }
+
+    .footer__span {
+        font-size: 40px;
+        line-height: 46px;
+        padding: 70px;
+    }
+
+    .miniItem_wrap {
+        display: none;
+    }
+
+    .gallerey__photos_grid {
+        flex-direction: column;
+        margin: 15px;
+        row-gap: 17px;
+    }
+
+    .footer {
+        padding: 0;
+    }
+
+    .flx_drc_media {
+        flex-direction: column-reverse;
+    }
+
+    .flx_drc_desktop {
+        display: none;
+    }
+
+    .flx_drc {
+        flex-direction: column;
+    }
+
+    .order_minus {
+        order: -1;
+    }
+
+    .footer__workTeam {
+        margin: 15px;
+        row-gap: 17px;
+        flex-direction: column;
+    }
+
+    .mar_top_0 {
+        margin-top: 0;
+    }
+
+
+}

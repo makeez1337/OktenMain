@@ -2,9 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Homework 5</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Makeez322</title>
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
 </head>
 <body>
 
@@ -32,8 +34,9 @@
                 </div>
             </div>
         </div>
-
-
+        <div class="nav__btn_mobile">
+            <div class="btn_mobile"></div>
+        </div>
     </div>
 
     <div class="header__main wrapper">
@@ -127,15 +130,17 @@
         <div class="dishes__main_img">
             <img src="images/pizza-4968645_1920%20(1)%201.png" alt="Pizza">
         </div>
-        <div class="dishes__hamburger_img">
-            <img src="images/hamburger-494706_1920%201.png" alt="Hamburger">
-            <img src="images/hamburger-494706_1920%201.png" alt="Hamburger">
-            <img src="images/hamburger-494706_1920%201.png" alt="Hamburger">
-        </div>
-        <div class="dishes_hamburger_price">
-            <p>Гамбургер мини --------------------------------- 220 ₽</p>
-            <p>Гамбургер мини --------------------------------- 220 ₽</p>
-            <p>Гамбургер мини --------------------------------- 220 ₽</p>
+        <div class="dishes__media_wrap">
+            <div class="dishes__hamburger_img">
+                <img src="images/hamburger-494706_1920%201.png" alt="Hamburger">
+                <img src="images/hamburger-494706_1920%201.png" alt="Hamburger">
+                <img src="images/hamburger-494706_1920%201.png" alt="Hamburger">
+            </div>
+            <div class="dishes_hamburger_price">
+                <p>Гамбургер мини <span class="dishes__hamburger_p">---------------------------------</span> 220 ₽</p>
+                <p>Гамбургер мини <span class="dishes__hamburger_p">---------------------------------</span> 220 ₽</p>
+                <p>Гамбургер мини <span class="dishes__hamburger_p">---------------------------------</span> 220 ₽</p>
+            </div>
         </div>
     </div>
 </div>
@@ -157,29 +162,31 @@
                 </div>
             </div>
         </div>
-        <div class="main__menu_items">
-            <div style="margin-top: 36px" class="main__menu_order">
-                <div class="abstract_img">
-                    <img src="images/abstract-1238247_1920%201.png"
-                         alt="Abstract">
-                    <div class="eclipse_price">420</div>
-                    <p style="font-size: 26px;line-height: 30px;">Гамбургер макси</p>
-                    <p class="font-size: 16px;line-height: 22px;">Максимально толстый
-                        слой мяса</p>
-                    <button class="main__menu_btn">ЗАКАЗАТЬ</button>
+        <div class="main__menu_items_media">
+            <div class="main__menu_items">
+                <div style="margin-top: 36px" class="main__menu_order">
+                    <div class="abstract_img">
+                        <img src="images/abstract-1238247_1920%201.png"
+                             alt="Abstract">
+                        <div class="eclipse_price">420</div>
+                        <p style="font-size: 26px;line-height: 30px;">Гамбургер макси</p>
+                        <p class="font-size: 16px;line-height: 22px;">Максимально толстый
+                            слой мяса</p>
+                        <button class="main__menu_btn">ЗАКАЗАТЬ</button>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="main__menu_items">
-            <div style="margin-top: 36px" class="main__menu_order">
-                <div class="abstract_img">
-                    <img src="images/abstract-1238247_1920%201.png"
-                         alt="Abstract">
-                    <div class="eclipse_price">420</div>
-                    <p style="font-size: 26px;line-height: 30px;">Гамбургер макси</p>
-                    <p class="font-size: 16px;line-height: 22px;">Максимально толстый
-                        слой мяса</p>
-                    <button class="main__menu_btn">ЗАКАЗАТЬ</button>
+            <div class="main__menu_items">
+                <div style="margin-top: 36px" class="main__menu_order">
+                    <div class="abstract_img">
+                        <img src="images/abstract-1238247_1920%201.png"
+                             alt="Abstract">
+                        <div class="eclipse_price">420</div>
+                        <p style="font-size: 26px;line-height: 30px;">Гамбургер макси</p>
+                        <p class="font-size: 16px;line-height: 22px;">Максимально толстый
+                            слой мяса</p>
+                        <button class="main__menu_btn">ЗАКАЗАТЬ</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -212,14 +219,14 @@
                 <img src="images/coffee-3120750_1920%201.png" alt="Coffe">
                 <img src="images/goulash-6054124_1920%202.png" alt="">
             </div>
-            <div style="flex-direction: row-reverse" class="gallerey__photos_grid">
+            <div class="gallerey__photos_grid flx_drc">
                 <img src="images/table-71380_1280%201.png" alt="Table">
-                <img src="images/coffee-3120750_1920%201.png" alt="Coffe">
-                <img src="images/goulash-6054124_1920%202.png" alt="">
+                <img class="order_minus" src="images/coffee-3120750_1920%201.png" alt="Coffe">
+                <img class="order_minus" src="images/goulash-6054124_1920%202.png" alt="">
             </div>
         </div>
     </div>
-    <div style="margin-top: 100px" class="footer__span">Наши <span style="color: red">Повара</span></div>
+    <div class="footer__span mar_top_0 mar_top_100">Наши <span style="color: red">Повара</span></div>
     <div class="footer__workTeam">
         <img src="images/cook-196932_1920%201.png" alt="Worker">
         <img src="images/pizza-366111_1280%201.png" alt="Worker">

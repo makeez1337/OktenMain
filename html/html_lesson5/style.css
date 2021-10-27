@@ -519,3 +519,29 @@
     height: 100vh;
     background: url("images/st-826688_1920 1.png") no-repeat center/cover;
 }
+
+.dishes__media_wrap {
+    display: flex;
+    column-gap: 30px;
+}
+
+.main__menu_items_media {
+    display: flex;
+    column-gap: 30px;
+}
+
+.flx_drc_desktop {
+    flex-direction: row-reverse;
+}
+
+.flx_drc_media {
+    display: none;
+}
+
+.flx_drc {
+    flex-direction: row-reverse;
+}
+
+.mar_top_100 {
+    margin-top: 100px;
+}
