@@ -1,0 +1,30 @@
+.target {
+    height: 100vh;
+    background: url("images/hero image.png") no-repeat center/cover;
+}
+
+.wrapper {
+    padding: 0 120px;
+    margin: 0 auto;
+}
+
+.header__main {
+    margin-top: 295px;
+}
+
+.p-pseudoclass::after, .p-pseudoclass::before {
+    content: "";
+    display: block;
+    width: 61px;
+    height: 2px;
+    background-color: #C4C4C4;
+}
+
+.p-pseudoclass::after{
+    margin-left: 5px;
+}
+
+.p-pseudoclass::before {
+    margin-right: 5px;
+}
+
