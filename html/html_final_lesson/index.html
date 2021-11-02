@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+
+
+<div class="header d-flex align-items-center">
+    <div class="container">
+        <div class="row">
+            <div class="left__nav col-xl-5 d-flex align-items-center gap-4">
+                <div class="left__item-location-img d-flex align-items-center">
+                    <img src="images/Your%20location.png" alt="Your location">Ваш город: <span
+                        class="media__text-underline">Москва</span>
+                </div>
+                <div class="left__item d-none d-xl-block">
+                    Информация
+                    <img src="images/Dropdown.png" alt="Dropdown">
+                </div>
+                <div class="left__item d-none d-xl-block">
+                    Сотрудничество
+                    <img src="images/Dropdown.png" alt="Dropdown">
+                </div>
+                <div class="left__media_item  d-block d-xl-none">
+                    Еще
+                    <img src="images/Dropdown.png" alt="Dropdown">
+                </div>
+            </div>
+            <div class="right__nav col-xl-7 d-none d-xl-flex justify-content-end align-items-center gap-4">
+                <div class="right__item">Доставка</div>
+                <div class="right__item">Оплата</div>
+                <div class="right__item">Гарантия</div>
+                <div class="right__item">Новости</div>
+                <div class="right__item">Журнал</div>
+                <div class="right__item">О магазине</div>
+                <div class="right__item">Контакты</div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="header__menu">
+    <div class="container">
+
+        <div class="header__menu_top row row-cols-xs-2 row-cols-xl-5">
+            <div class="header__top_item AVT-ZAP-media col d-flex justify-content-center align-items-center">
+                <img src="images/AVT_ZAP.png" alt="Logo">
+                <div class="AVT-ZAP-text d-flex flex-column justify-content-center">
+                    <span class="AVT-ZAP-text-header">AVT-ZAP</span>
+                    <span class="AVT-ZAP-text-describe">
+                        Интернет-магазин запчастей для АКПП
+                    </span>
+                </div>
+            </div>
+            <div class="header__top_item col d-xl-flex d-none align-items-center justify-content-center">
+                <img src="images/time_shedule.png" alt="Time">
+                <span class="time_shedule-text p-2"><span class="d-flex flex-column"><span class="text-justify">Мы работаем: будни - 9:00-21:00</span>
+                    <span class="text-end">сб. - 10:00-15:00</span></span></span>
+            </div>
+            <div class="header__top_item col d-xl-flex d-none align-items-center justify-content-center">
+                <img src="images/Our_location.png" alt="Our location"> <span class="our_location-text">Невский пр-т, д. 45</span>
+            </div>
+            <div class="header__top_item whatsapp_contact col d-flex align-items-center justify-content-center">
+                <div class="whatsapp__contact-border d-flex align-items-center justify-content-center">
+                    <img src="images/whatsapp_mini%201.png" alt="Whatsapp logo"> <span
+                        class="whatsapp__contact-text p-1">Напишите нам в WhatsApp</span>
+                </div>
+            </div>
+            <div class="header__top_item col d-flex flex-column justify-content-center align-items-end">
+                <span class="header__top_number-text">+7 383 291 92 86</span>
+                <span class="header__top_number-text-describe media__text-underline">форма обратной связи</span>
+            </div>
+        </div>
+
+        <div class="header__menu_bot row row-cols-xl-3">
+            <div class="col-xl-2">
+                <div class="catalog__item d-xl-flex d-none justify-content-center align-items-center">
+                    <div class="burger__btn"></div>
+                    <span class="catalog__item-text ms-2">Каталог</span>
+                </div>
+            </div>
+            <div class="col-xl-6 d-none d-xl-block">
+                <img src="images/search_menu.png" alt="Search menu">
+            </div>
+            <div class="header__shop__menu col-xl-4 d-xl-flex d-none justify-content-end align-items-center gap-3">
+                <div class="shop__login-item d-flex justify-content-center align-items-center pe-3">
+                    <img src="images/shop_login-item.png" alt="Login">
+                </div>
+                <div class="shop__favourites-item d-flex justify-content-center align-items-center pe-3">
+                    <img src="images/shop_favourites-item.png" alt="Favourites">
+                </div>
+                <div class="shop__products-item d-flex justify-content-center align-items-center">
+                    <img src="images/shop_products-item.png" alt="Products at">
+                </div>
+            </div>
+            <div class="d-flex align-items-center">
+                <div class="header__burger-media d-lg-none">
+                    <img src="images/menu__burger-media.png" alt="Burger menu">
+                </div>
+                <div class="header__search_menu-media d-lg-none">
+                    <img src="images/search__menu-media.png" alt="Search menu">
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<div class="main__menu">
+    <div class="main__menu_wrap container d-flex">
+
+
+        <div class="row">
+            <div class="carousel__item col-auto">
+                <div id="carouselWithInterval" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="images/carousel.png" class="d-block w-100" alt="Slide 1">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="images/carousel.png" class="d-block w-100" alt="Slide 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/carousel.png" class="d-block w-100" alt="Slide 3">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselWithInterval" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselWithInterval" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </a>
+                </div>
+            </div>
+            <div class="discount__items d-flex flex-xl-column gap-2 col-auto">
+                <div class="discount__item">
+                    <img src="images/discount_item1.png" alt="">
+                </div>
+                <div class="discount__item">
+                    <img src="images/discount_item2.png" alt="">
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<div class="main__products">
+    <div class="container ">
+
+        <div class="main__products-wrap row justify-content-center gap-2">
+            <div class="main__products_item-oils d-flex align-items-center justify-content-between">
+                <div class="main__products_about-item">
+                    <span class="main__products-header">Масла</span>
+                    <p>Трансмиссионное масло;
+                        присалка в масло акпп</p>
+                    <button class="main__products-btn d-flex align-items-center justify-content-center">Перейти</button>
+                </div>
+                <img src="images/item-oil.png" alt="Oil">
+            </div>
+            <div class="main__products_item-filters d-flex align-items-center justify-content-between">
+                <div class="main__products_about-item d-flex">
+                    <span class="main__products-header">Фильтры</span>
+                    <p>Масляный фильтр;
+                        фильтр воздушный</p>
+                    <button class="main__products-btn d-flex align-items-center justify-content-center">Перейти</button>
+                </div>
+                <img src="images/item-filter.png" alt="Filter">
+            </div>
+            <div class="main__products_item-radiators d-none d-xl-flex align-items-center justify-content-between">
+                <div class="main__products_about-item d-flex">
+                    <span class="main__products-header">Радиаторы</span>
+                    <p>Дополнительные
+                        радиаторы</p>
+                    <button class="main__products-btn d-flex align-items-center justify-content-center">Перейти</button>
+                </div>
+                <img src="images/item-radiator.png" alt="Radiator">
+            </div>
+        </div>
+        <div class="profile__menu-media d-flex align-items-center d-lg-none">
+            <div class="container-fluid">
+                <div class="row row-cols-4">
+                    <div class="col d-flex flex-column justify-content-center align-items-center">
+                        <img src="images/profile_media-item-home.png" alt="Home">
+                        Меню
+                    </div>
+                    <div class="col d-flex flex-column justify-content-center align-items-center">
+                        <img src="images/profile_media-favo-item.png" alt="Favourite">
+                        Избранное
+                    </div>
+                    <div class="col d-flex flex-column justify-content-center align-items-center">
+                        <img src="images/profile_meida-item-shop.png" alt="Shop">
+                        Корзина
+                    </div>
+                    <div class="col d-flex flex-column justify-content-center align-items-center">
+                        <img src="images/profile_media-item-user.png" alt="Profile">
+                        Профиль
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<div class="products__menu ms-2">
+
+    <div class="container">
+
+        <div class="row gap-3 flex-nowrap">
+            <div class="search__for_product col-auto d-flex justify-content-center align-items-center"><span
+                    class="products__menu-text fff">Подборки
+                товаров</span></div>
+            <div class="search__for_discount col-auto d-flex justify-content-center align-items-center"><span
+                    class="products__menu-text">Акции</span></div>
+            <div class="search__for_actual col-auto d-flex justify-content-center align-items-center"><span
+                    class="products__menu-text">Сейчас
+                покупают</span></div>
+        </div>
+        <div class="row row-xl-cols4 row-xs-cols2">
+
+            <div class="product__accum-item col d-flex align-items-start flex-column mt-4 ">
+                <img src="images/accum-item1.png" alt="Accumelator">
+                <div class="d-flex"><img src="images/item-rating.png" alt="Starts"> <span class="rating-text ms-2">10 отзывов</span>
+                </div>
+                <span class="intermediate-text">Intermediate accumelator sleeve</span>
+                <p class="mt-4">ЦЕНА <span class="text-decoration-underline text-primary">по запросу</span>
+                </p>
+                <div class="d-flex align-items-center gap-3">
+                    <div class="purchase-btn text-light d-flex justify-content-center align-items-center">
+                        <img src="images/purchase-item1.png" alt="Purchase">
+                        <span class="ps-2">В корзину</span>
+                    </div>
+                    <img src="images/purchase-item2.png" alt="">
+                    <img class="d-none d-xl-block" src="images/market-fluctuation%201.png" alt="">
+                </div>
+            </div>
+            <div class="product__accum-item friktion-disks col d-flex align-items-start flex-column mt-4 ">
+                <img src="images/accum-item2.png" alt="Accumelator">
+                <div class="d-flex"><img src="images/item-rating.png" alt="Starts"> <span class="rating-text ms-2">10 отзывов</span>
+                </div>
+                <span class="intermediate-text">Комплект фрикционных дисков</span>
+                <p class="mt-4"><span class="discount-price-text">4 430₽</span>
+                    <span class="no-discount-price-text">5 430₽</span>
+                </p>
+                <div class="d-flex align-items-center gap-3">
+                    <div class="purchase-btn text-light d-flex justify-content-center align-items-center">
+                        <img src="images/purchase-item1.png" alt="Purchase">
+                        <span class="ps-2">В корзину</span>
+                    </div>
+                    <img src="images/purchase-item2.png" alt="">
+                    <img class="d-none d-xl-block" src="images/market-fluctuation%201.png" alt="">
+                </div>
+                <div class="discount-img"><img src="images/discount-img.png" alt=""></div>
+            </div>
+
+            <div class="border__between-items d-block d-xl-none mt-3"></div>
+
+            <div class="product__accum-item col d-flex align-items-start flex-column mt-4 ">
+                <img src="images/accum-item1.png" alt="Accumelator">
+                <div class="d-flex"><img src="images/item-rating.png" alt="Starts"> <span class="rating-text ms-2">10 отзывов</span>
+                </div>
+                <span class="intermediate-text d-flex flex-column">Intermediate accumelator sleeve</span>
+                <p class="mt-4">ЦЕНА <span class="text-decoration-underline text-primary">по запросу</span>
+                </p>
+                <div class="d-flex align-items-center gap-3">
+                    <div class="purchase-btn text-light d-flex justify-content-center align-items-center">
+                        <img src="images/purchase-item1.png" alt="Purchase">
+                        <span class="ps-2">В корзину</span>
+                    </div>
+                    <img src="images/purchase-item2.png" alt="">
+                    <img class="d-none d-xl-block" src="images/market-fluctuation%201.png" alt="">
+                </div>
+            </div>
+            <div class="product__accum-item col d-none d-xl-flex align-items-start flex-column mt-4 ">
+                <img src="images/purchase-item3.png" alt="Accumelator">
+                <div class="d-flex"><img src="images/item-rating.png" alt="Starts"> <span class="rating-text ms-2">10 отзывов</span>
+                </div>
+                <span class="intermediate-text d-flex flex-column">Intermediate accumelator sleeve</span>
+                <p class="mt-4">ЦЕНА <span class="text-decoration-underline text-primary">по запросу</span>
+                </p>
+                <div class="d-flex align-items-center gap-3">
+                    <div class="purchase-btn text-light d-flex justify-content-center align-items-center">
+                        <img src="images/purchase-item1.png" alt="Purchase">
+                        <span class="ps-2">В корзину</span>
+                    </div>
+                    <img src="images/purchase-item2.png" alt="">
+                    <img class="d-none d-xl-block" src="images/market-fluctuation%201.png" alt="">
+                </div>
+            </div>
+            <div class="product__accum-item friktion-disks col d-flex d-xl-none align-items-start flex-column mt-4 ">
+                <img src="images/accum-item2.png" alt="Accumelator">
+                <div class="d-flex"><img src="images/item-rating.png" alt="Starts"> <span class="rating-text ms-2">10 отзывов</span>
+                </div>
+                <span class="intermediate-text">Комплект фрикционных дисков</span>
+                <p class="mt-4"><span class="discount-price-text">4 430₽</span>
+                    <span class="no-discount-price-text">5 430₽</span>
+                </p>
+                <div class="d-flex align-items-center gap-3">
+                    <div class="purchase-btn text-light d-flex justify-content-center align-items-center">
+                        <img src="images/purchase-item1.png" alt="Purchase">
+                        <span class="ps-2">В корзину</span>
+                    </div>
+                    <img src="images/purchase-item2.png" alt="">
+                    <img class="d-none d-xl-block" src="images/market-fluctuation%201.png" alt="">
+                </div>
+                <div class="discount-img"><img src="images/discount-img.png" alt=""></div>
+            </div>
+
+            <div class="border__between-items mt-3"></div>
+
+            <div class="product__accum-item col d-flex align-items-start flex-column mt-4 ">
+                <img src="images/accum-item1.png" alt="Accumelator">
+                <div class="d-flex"><img src="images/item-rating.png" alt="Starts"> <span class="rating-text ms-2">10 отзывов</span>
+                </div>
+                <span class="intermediate-text">Intermediate accumelator sleeve</span>
+                <p class="mt-4">ЦЕНА <span class="text-decoration-underline text-primary">по запросу</span>
+                </p>
+                <div class="d-flex align-items-center gap-3">
+                    <div class="purchase-btn text-light d-flex justify-content-center align-items-center">
+                        <img src="images/purchase-item1.png" alt="Purchase">
+                        <span class="ps-2">В корзину</span>
+                    </div>
+                    <img src="images/purchase-item2.png" alt="">
+                    <img class="d-none d-xl-block" src="images/market-fluctuation%201.png" alt="">
+                </div>
+            </div>
+            <div class="product__accum-item friktion-disks col d-flex align-items-start flex-column mt-4 ">
+                <img src="images/accum-item2.png" alt="Accumelator">
+                <div class="d-flex"><img src="images/item-rating.png" alt="Starts"> <span class="rating-text ms-2">10 отзывов</span>
+                </div>
+                <span class="intermediate-text">Комплект фрикционных дисков</span>
+                <p class="mt-4"><span class="discount-price-text">4 430₽</span>
+                    <span class="no-discount-price-text">5 430₽</span>
+                </p>
+                <div class="d-flex align-items-center gap-3">
+                    <div class="purchase-btn text-light d-flex justify-content-center align-items-center">
+                        <img src="images/purchase-item1.png" alt="Purchase">
+                        <span class="ps-2">В корзину</span>
+                    </div>
+                    <img src="images/purchase-item2.png" alt="">
+                    <img class="d-none d-xl-block" src="images/market-fluctuation%201.png" alt="">
+                </div>
+                <div class="discount-img"><img src="images/discount-img.png" alt=""></div>
+            </div>
+            <div class="product__accum-item col d-none d-xl-flex align-items-start flex-column mt-4 ">
+                <img src="images/accum-item1.png" alt="Accumelator">
+                <div class="d-flex"><img src="images/item-rating.png" alt="Starts"> <span class="rating-text ms-2">10 отзывов</span>
+                </div>
+                <span class="intermediate-text d-flex flex-column">Intermediate accumelator sleeve</span>
+                <p class="mt-4">ЦЕНА <span class="text-decoration-underline text-primary">по запросу</span>
+                </p>
+                <div class="d-flex align-items-center gap-3">
+                    <div class="purchase-btn text-light d-flex justify-content-center align-items-center">
+                        <img src="images/purchase-item1.png" alt="Purchase">
+                        <span class="ps-2">В корзину</span>
+                    </div>
+                    <img src="images/purchase-item2.png" alt="">
+                    <img class="d-none d-xl-block" src="images/market-fluctuation%201.png" alt="">
+                </div>
+            </div>
+            <div class="product__accum-item col d-none d-xl-flex align-items-start flex-column mt-4 ">
+                <img src="images/purchase-item3.png" alt="Accumelator">
+                <div class="d-flex"><img src="images/item-rating.png" alt="Starts"> <span class="rating-text ms-2">10 отзывов</span>
+                </div>
+                <span class="intermediate-text d-flex flex-column">Intermediate accumelator sleeve</span>
+                <p class="mt-4">ЦЕНА <span class="text-decoration-underline text-primary">по запросу</span>
+                </p>
+                <div class="d-flex align-items-center gap-3">
+                    <div class="purchase-btn text-light d-flex justify-content-center align-items-center">
+                        <img src="images/purchase-item1.png" alt="Purchase">
+                        <span class="ps-2">В корзину</span>
+                    </div>
+                    <img src="images/purchase-item2.png" alt="">
+                    <img class="d-none d-xl-block" src="images/market-fluctuation%201.png" alt="">
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <div class="product-bottom-btn d-flex justify-content-center align-items-center"><span
+                        class="text-primary">Показать еще</span></div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+<div class="news__menu">
+    <div class="container">
+        <div class="row">
+            <h4>НОВОСТИ</h4>
+        </div>
+    </div>
+    <div class="news__menu-border d-none d-xl-block"></div>
+    <div class="container">
+        <div class="row row-cols-1  row-cols-xl-4 pt-3">
+            <div class="col d-flex flex-column">
+                <div class="date-block d-flex justify-content-center align-items-center"><span class="date-block-text">3 ноября</span>
+                </div>
+                <p class="text-decoration-underline text-primary">Изменения на сайте</p>
+                <p>Недавно на сайте мы ввели
+                    очередную порцию изменений,
+                    которые, как нам кажется, должны
+                    улучшить функциональность сайта
+                    и сделать его более удобным для
+                    пользователей. Реакция посетителей
+                    не заставила себя долго ждать...</p>
+            </div>
+            <div class="col d-flex flex-column">
+                <div class="date-block d-flex justify-content-center align-items-center"><span class="date-block-text">2 ноября</span>
+                </div>
+                <p class="text-decoration-underline text-primary">Вышла новая версия для
+                    мобильных приложений</p>
+                <p>Что нового в 2.0:
+                    <span class="d-flex flex-column">— добавлена история поиска;</span>
+                    <span class="d-flex flex-column">— добавлена синхронизация с сервером;</span>
+                    <span class="d-flex flex-column">— испрвление ошибок.</span></p>
+            </div>
+            <div class="col d-flex flex-column">
+                <div class="date-block d-flex justify-content-center align-items-center"><span class="date-block-text">1 ноября</span>
+                </div>
+                <p class="text-decoration-underline text-primary">Очередная порция обновлений для
+                    мобильных приложений</p>
+                <p>Что нового добавлено:
+                    <span class="d-flex flex-column">— поддержка пуш-уведомлений;</span>
+                    <span class="d-flex flex-column">— разделы для покупателей;</span>
+                    <span class="d-flex flex-column">— просмотр покупателя в заказах;</span>
+                    <span class="d-flex flex-column">— возможность поиска;</span>
+                    <span class="d-flex flex-column">— исправление ошибок.</span></p>
+            </div>
+            <div class="col d-flex flex-column">
+                <div class="date-block d-flex justify-content-center align-items-center"><span class="date-block-text">31 сентября</span>
+                </div>
+                <p class="text-decoration-underline text-primary">Интерфейс заказов для покупателей
+                    стал более функциональным</p>
+                <p>Он позволяет выводить все
+                    формируемые системой
+                    уведомления(e-mail, смс, web) в
+                    едином окне с системой удобной
+                    фильтрации поиска.</p>
+            </div>
+        </div>
+    </div>
+
+    <img class="news__menu-stick-3 d-none d-xl-block" src="images/stick-3.png" alt="Stick">
+    <img class="news__menu-stick-2 d-none d-xl-block" src="images/stick-2.png" alt="Stick">
+    <img class="news__menu-stick-1 d-none d-xl-block" src="images/stick-1.png" alt="Stick">
+    <img class="news__menu-stick-31 d-none d-xl-block" src="images/stick-31.png" alt="Stick">
+</div>
+
+<div class="footer">
+    <div class="container">
+        <div class="row row-cols-1 row-cols-xl-4">
+            <div class="col-xl-2 d-flex flex-column">
+                <p class="foot-col">КАТАЛОГ</p>
+                <p class="text-white">Каталог запчастей</p>
+                <p class="text-white">Масла</p>
+                <p class="text-white">Фильтра</p>
+                <p class="text-white">Радиаторы</p>
+                <p class="text-white">Sonnax</p>
+                <p class="text-white">Manual</p>
+                <p class="text-white">Новинки</p>
+                <p class="text-white">Акции</p>
+            </div>
+            <div class="col-xl-2 flex-column">
+                <p class="foot-col">РУБРИКАТОР</p>
+                <p class="text-white">Доставка</p>
+                <p class="text-white">Оплата</p>
+                <p class="text-white">Гарантия</p>
+                <p class="text-white">Новости</p>
+                <p class="text-white">Журнал</p>
+                <p class="text-white">О магазине</p>
+                <p class="text-white">Контактная информация</p>
+            </div>
+            <div class="col-xl-3 d-flex flex-column">
+                <p class="foot-col">ИНФОРМАЦИЯ</p>
+                <p class="text-white">Пользовательское соглашение
+                    об использовании персональных данных</p>
+                <p class="text-white">Политика конфиденциальности</p>
+                <p class="text-white">Соглашение на рассылку
+                    рекламных материалов</p>
+                <p class="text-white">Политика возвратов</p>
+
+                <p class="text-white pt-4">Мы принимаем</p>
+                <div>
+                    <img src="images/mastercard.png" alt="mastercard">
+                </div>
+            </div>
+            <div class="col-xl-5 d-flex flex-column">
+                <div class="footer__cont-adress-wrap d-flex gap-5">
+                    <div class="footer__contacts d-flex flex-column">
+                        <p class="foot-col">КОНТАКТЫ</p>
+                        <span class="text-white">+7 383 291 92 86</span>
+                        <span class="text-white">info@avt-zap.ru</span>
+                    </div>
+                    <div class="footer__adress d-flex flex-column">
+                        <p class="foot-col">АДРЕС</p>
+                        <span class="text-white">г. Новосибирск,</span>
+                        <span class="text-white">ул. Планировочная, 5, офис 105</span>
+                    </div>
+                </div>
+                <div class="footer__back-contact d-flex pt-3 gap-4">
+                    <span class="foot-col">Мы онлайн, воспользуйтесь</span>
+                    <span class="text-white">Форма обратной связи</span>
+                </div>
+                <div class="footer__follow-us pt-4">
+                    <span class="d-flex flex-column foot-col">
+                        Подпишитесь на нашу расслыку и
+                        <span>вы первыми узнаете о скидках и акциях</span></span>
+                </div>
+                <div class="footer__follow-menu d-flex justify-content-between">
+                    <div class="d-flex align-items-center text-center">
+                        <span class="type-email ms-2">Введите ваш email</span>
+                    </div>
+                    <div class="follow-btn d-flex align-items-center justify-content-center">
+                        <span class="text-white">Подписаться</span>
+                    </div>
+                </div>
+                    <div class="follow-icons d-flex gap-5 justify-content-end pe-5 mt-3">
+                        <div><img src="images/facebook%201.png" alt="facebook"></div>
+                        <div><img src="images/telegram%201.png" alt="telegram"></div>
+                        <div><img src="images/twitter%201.png" alt="twitter"></div>
+                        <div><img src="images/google-plus%201.png" alt="google-plus"></div>
+                   
+                    </div>
+
+            </div>
+            <div class="foot-last d-block d-xl-none"><span class="foot-col mt-4">2017 © ООО «АВТ-ЗАП» - запчасти для акпп</span></div>
+
+
+        </div>
+        <span class="foot-col d-none d-xl-block">2017 © ООО «АВТ-ЗАП» - запчасти для акпп</span>
+
+    </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+</html>

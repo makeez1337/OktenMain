@@ -1,0 +1,388 @@
+.header {
+    height: 36px;
+    background: #0F2438;
+}
+
+.left__nav, .right__nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+
+}
+
+.header__menu {
+    padding: 20px 0;
+    background: #FFFFFF;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.AVT-ZAP-text-header {
+    font-size: 24px;
+    line-height: 28px;
+    color: #0F2438;
+}
+
+.AVT-ZAP-text-describe {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #0F2438;
+
+}
+
+.time_shedule-text, .header__top_number-text-describe {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 20px;
+    color: #0F2438;
+
+}
+
+.our_location-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0F2438;
+
+}
+
+.whatsapp__contact-border {
+    background: #E1EFD0;
+    border-radius: 2px;
+    height: 30px;
+    width: 204px;
+}
+
+.whatsapp__contact-text {
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+
+}
+
+.header__top_number-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #0F2438;
+
+}
+
+.catalog__item {
+    background: #005BB9;
+    border-radius: 6px;
+    width: 164px;
+    height: 53px;
+}
+
+
+.catalog__item-text {
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.burger__btn {
+    width: 13px;
+    height: 2px;
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    position: relative;
+    display: block;
+    content: "";
+
+}
+
+.burger__btn::before, .burger__btn::after {
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    position: absolute;
+    display: block;
+    content: "";
+}
+
+.burger__btn::before {
+    top: 4px;
+}
+
+.burger__btn::after {
+    bottom: 4px;
+}
+
+.header__menu_bot {
+    margin-top: 20px;
+}
+
+.shop__login-item, .shop__favourites-item {
+    border-right: 1px solid #E1E5F8;
+}
+
+#carouselWithInterval {
+    width: 950px;
+    height: 390px;
+}
+
+.discount__item img {
+    width: 310px;
+    height: 180px;
+}
+
+
+.main__menu {
+    padding: 20px 0;
+}
+
+.main__products {
+    padding: 20px 0;
+}
+
+.main__products_item-oils,
+.main__products_item-filters,
+.main__products_item-radiators {
+    width: 425px;
+    height: 184px;
+    background: #FFFFFF;
+    border: 1px solid #E1E5F8;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.main__products_about-item {
+    width: 170px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+}
+
+.main__products-header {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    align-items: center;
+    color: #0A1A2C;
+}
+
+.main__products_about-item p {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 24px;
+    color: #0A1A2C;
+
+}
+
+.main__products-btn {
+    width: 86px;
+    height: 26px;
+    background-color: purple;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.main__products_item-filters img {
+    position: relative;
+    content: "";
+    display: block;
+    left: 18px;
+}
+
+.search__for_product {
+    width: 241px;
+    height: 55px;
+    background-color: #005BB9;
+    border-radius: 5px;
+}
+
+.search__for_discount {
+    width: 150px;
+    height: 55px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 2px solid #005BB9;
+}
+
+.search__for_actual {
+    width: 241px;
+    height: 55px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 2px solid #005BB9;
+}
+
+.products__menu-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #005BB9;
+
+}
+
+.fff {
+    color: #fff;
+}
+
+.product__accum-item {
+    width: 316px;
+    height: 418px;
+}
+
+.rating-text {
+    font-size: 14px;
+    line-height: 16px;
+    color: #B0B0B0;
+
+}
+
+.intermediate-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #0A1A2C;
+
+}
+
+.product__accum-item p {
+    font-size: 13px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.purchase-btn {
+    width: 160px;
+    height: 49px;
+    background-color: #005BB9;
+    border-radius: 5px;
+}
+
+.discount-price-text {
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFB800;
+}
+
+.no-discount-price-text {
+    font-size: 13px;
+    line-height: 15px;
+    text-decoration-line: line-through;
+    color: #C2C5DA;
+
+}
+
+.border__between-items {
+    height: 1px;
+    background: #E1E5F8;
+}
+
+.friktion-disks {
+    position: relative;
+    content: "";
+}
+
+.discount-img {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+}
+
+
+.product-bottom-btn {
+    width: 187px;
+    height: 49px;
+    border: 2px solid #005BB9;
+    border-radius: 5px;
+}
+
+.news__menu h4 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.news__menu {
+    padding: 50px 0 80px;
+    position: relative;
+    content: "";
+    display: block;
+}
+
+.news__menu-border {
+    height: 9px;
+    background: #F5F5F5;
+}
+
+.date-block {
+    width: 106px;
+    height: 22px;
+    background: #0C1A2A;
+    border-radius: 4px;
+}
+
+.date-block-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+
+}
+
+.news__menu-stick-3, .news__menu-stick-2, .news__menu-stick-1, .news__menu-stick-31 {
+    position: absolute;
+    content: "";
+    display: block;
+
+}
+
+.news__menu-stick-3 {
+    top: 86px;
+    left: 317px;
+}
+
+.news__menu-stick-2 {
+    top: 86px;
+    left: 642px;
+}
+.news__menu-stick-1 {
+    top: 86px;
+    left: 973px;
+}
+.news__menu-stick-31 {
+    top: 86px;
+    left: 1308px;
+}
+
+.footer {
+    padding: 30px 0;
+    background-color: #203246;
+}
+
+.foot-col {
+    color: #868DAC;
+}
+
+.footer__follow-menu {
+    width: 470px;
+    height: 40px;
+    border: 1px solid #868DAC;
+    box-sizing: border-box;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.type-email {
+    font-size: 16px;
+    line-height: 19px;
+    color: #ADBDD1;
+
+}
+
+.follow-btn {
+    width: 177px;
+    height: 38px;
+    background: #005BB9;
+    border-radius: 0 6px 6px 0;
+}

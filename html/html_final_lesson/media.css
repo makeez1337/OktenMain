@@ -1,0 +1,184 @@
+@media screen and (max-width: 400px) {
+
+    .left__item-location-img img {
+        display: none;
+    }
+
+    .media__text-underline {
+        text-decoration: underline;
+    }
+
+    .AVT-ZAP-media {
+        width: 135px;
+    }
+
+    .AVT-ZAP-text-header {
+        font-size: 19px;
+    }
+
+    .AVT-ZAP-text-describe {
+        font-size: 8px;
+    }
+
+
+    .whatsapp_contact {
+        order: 7;
+        justify-content: end !important;
+    }
+
+    .whatsapp__contact-border {
+        width: 152px;
+        height: 18px;
+    }
+
+    .whatsapp__contact-text {
+        font-size: 9px;
+    }
+
+    .header__menu {
+        padding-top: 0;
+    }
+
+    .header__search_menu-media {
+        margin-left: 25px;
+    }
+
+    .header__search_menu-media img {
+        width: 292px;
+    }
+
+    .header__burger-media img {
+        width: 40px;
+    }
+
+    #carouselWithInterval {
+        width: 350px;
+        height: 170px;
+    }
+
+    .main__menu_wrap {
+        flex-direction: column;
+    }
+
+    .discount__items {
+        flex-direction: row;
+        overflow: hidden;
+        margin-left: 0 !important;
+        margin-top: 25px;
+    }
+
+    .discount__item img {
+        width: 280px;
+        height: 180px;
+    }
+
+    .main__products_item-oils,
+    .main__products_item-filters,
+    .main__products_item-radiators {
+        width: 280px;
+    }
+
+    .main__products_item-oils img, .main__products_item-filters img {
+        width: 110px;
+    }
+
+    .main__products-wrap {
+        flex-wrap: nowrap;
+        justify-content: start !important;
+        overflow: hidden;
+        position: relative;
+        content: "";
+    }
+
+    .profile__menu-media {
+        width: 384px;
+        height: 60px;
+        background-color: #FFFFFF;
+        position: absolute;
+        content: "";
+        left: -9px;
+        bottom: 113px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .main__products_item-oils {
+        margin-left: 13px;
+    }
+
+
+    .carousel-item-next img, .carousel-item-prev img, .carousel-item.active img {
+        height: 180px;
+    }
+
+    .products__menu {
+        overflow: hidden;
+    }
+
+    .search__for_product, .search__for_actual {
+        width: 164px;
+        height: 36px;
+    }
+
+    .search__for_discount {
+        width: 82px;
+        height: 36px;
+    }
+
+    .products__menu-text {
+        font-size: 13px;
+
+    }
+
+    .product__accum-item > img {
+        width: 138px;
+        height: 120px;
+    }
+
+    .intermediate-text {
+        font-size: 12px;
+    }
+
+    .purchase-btn {
+        width: 110px;
+        height: 35px;
+    }
+
+    .product__accum-item {
+        height: 283px;
+    }
+
+    .product-bottom-btn {
+        margin-top: 20px;
+    }
+
+    .footer__follow-menu {
+        width: 350px;
+    }
+
+    .follow-btn {
+        width: 135px;
+    }
+
+    .follow-icons {
+        justify-content: start!important;
+    }
+
+    .footer__cont-adress-wrap {
+        flex-direction: column;
+    }
+
+    .footer__back-contact {
+        flex-direction: column;
+        row-gap: 0!important;
+    }
+
+    .foot-last {
+        background: #0E1E2F;
+        padding: 10px;
+        margin-top: 15px;
+    }
+
+    .footer {
+        padding: 30px 0 0;
+    }
+}
